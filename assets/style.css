@@ -1,0 +1,39 @@
+body {
+    padding: 2rem;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem 3rem;
+    justify-content: center;
+}
+
+main section {
+    width: 200px;
+    margin: 0;
+}
+
+main section p {
+    text-align: justify;
+}
+
+.hero {
+    padding: 10px 3rem;
+    text-align: center;
+
+}
+
+.color {
+    color: blue;
+}
